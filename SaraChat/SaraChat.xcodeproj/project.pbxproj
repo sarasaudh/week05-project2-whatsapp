@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56273370272D907500F7754E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627336F272D907500F7754E /* AppDelegate.swift */; };
+		56273372272D907500F7754E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273371272D907500F7754E /* SceneDelegate.swift */; };
+		56273379272D907A00F7754E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56273378272D907A00F7754E /* Assets.xcassets */; };
+		5627337C272D907A00F7754E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5627337A272D907A00F7754E /* LaunchScreen.storyboard */; };
+		56819851272DA9A50005DF8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56819850272DA9A50005DF8F /* Extensions.swift */; };
+		56819857272DAA030005DF8F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56819855272DAA020005DF8F /* RegisterViewController.swift */; };
+		56819862272DCE7F0005DF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56819861272DCE7F0005DF8F /* GoogleService-Info.plist */; };
+		6EC93777EE5639490D8FBCD4 /* Pods_SaraChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */; };
+		8FE56D3627301F4100C6332A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3527301F4100C6332A /* Model.swift */; };
+		8FE56D3827301F6A00C6332A /* Tap bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3727301F6A00C6332A /* Tap bar.swift */; };
+		8FE56D3A2730201C00C6332A /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D392730201C00C6332A /* favorite.swift */; };
+		8FE56D3C2730202600C6332A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3B2730202600C6332A /* ProfileVC.swift */; };
+		8FE56D3E2730203100C6332A /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3D2730203100C6332A /* UsersViewController.swift */; };
+		8FE56D402730228300C6332A /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3F2730228300C6332A /* LogIn.swift */; };
+		8FE56D422730234500C6332A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D412730234500C6332A /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		475EEC8895377C0D3EA7BBD7 /* Pods-SaraChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraChat.release.xcconfig"; path = "Target Support Files/Pods-SaraChat/Pods-SaraChat.release.xcconfig"; sourceTree = "<group>"; };
+		5627336C272D907500F7754E /* SaraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5627336F272D907500F7754E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56273371272D907500F7754E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56273378272D907A00F7754E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5627337B272D907A00F7754E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5627337D272D907A00F7754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56819850272DA9A50005DF8F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		56819855272DAA020005DF8F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		56819861272DCE7F0005DF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE2CFE8FA3EDA9A890BBAFD /* Pods-SaraChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraChat.debug.xcconfig"; path = "Target Support Files/Pods-SaraChat/Pods-SaraChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE56D3527301F4100C6332A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8FE56D3727301F6A00C6332A /* Tap bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tap bar.swift"; sourceTree = "<group>"; };
+		8FE56D392730201C00C6332A /* favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
+		8FE56D3B2730202600C6332A /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8FE56D3D2730203100C6332A /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		8FE56D3F2730228300C6332A /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		8FE56D412730234500C6332A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56273369272D907500F7754E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC93777EE5639490D8FBCD4 /* Pods_SaraChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56273363272D907500F7754E = {
+			isa = PBXGroup;
+			children = (
+				5627336E272D907500F7754E /* SaraChat */,
+				5627336D272D907500F7754E /* Products */,
+				9D253ECD445A31C37B0A12DA /* Pods */,
+				798FA823479C8361F59656E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5627336D272D907500F7754E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5627336C272D907500F7754E /* SaraChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5627336E272D907500F7754E /* SaraChat */ = {
+			isa = PBXGroup;
+			children = (
+				56819854272DA9E30005DF8F /* LogIn */,
+				5681984F272DA94B0005DF8F /* Controllers */,
+				5681984E272DA93B0005DF8F /* Views */,
+				5681984B272DA8DC0005DF8F /* Resources */,
+				5627337D272D907A00F7754E /* Info.plist */,
+				56819861272DCE7F0005DF8F /* GoogleService-Info.plist */,
+			);
+			path = SaraChat;
+			sourceTree = "<group>";
+		};
+		5681984B272DA8DC0005DF8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56273371272D907500F7754E /* SceneDelegate.swift */,
+				56819850272DA9A50005DF8F /* Extensions.swift */,
+				5627336F272D907500F7754E /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5681984E272DA93B0005DF8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FE56D392730201C00C6332A /* favorite.swift */,
+				8FE56D3B2730202600C6332A /* ProfileVC.swift */,
+				8FE56D412730234500C6332A /* ChatViewController.swift */,
+				8FE56D3D2730203100C6332A /* UsersViewController.swift */,
+				8FE56D3527301F4100C6332A /* Model.swift */,
+				56273378272D907A00F7754E /* Assets.xcassets */,
+				5627337A272D907A00F7754E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5681984F272DA94B0005DF8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FE56D3727301F6A00C6332A /* Tap bar.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		56819854272DA9E30005DF8F /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				56819855272DAA020005DF8F /* RegisterViewController.swift */,
+				8FE56D3F2730228300C6332A /* LogIn.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		798FA823479C8361F59656E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D253ECD445A31C37B0A12DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2CFE8FA3EDA9A890BBAFD /* Pods-SaraChat.debug.xcconfig */,
+				475EEC8895377C0D3EA7BBD7 /* Pods-SaraChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5627336B272D907500F7754E /* SaraChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56273380272D907A00F7754E /* Build configuration list for PBXNativeTarget "SaraChat" */;
+			buildPhases = (
+				96FAEFAD5946ACC14203D578 /* [CP] Check Pods Manifest.lock */,
+				56273368272D907500F7754E /* Sources */,
+				56273369272D907500F7754E /* Frameworks */,
+				5627336A272D907500F7754E /* Resources */,
+				4D99A18970792AED51B1EA46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaraChat;
+			productName = SaraChat;
+			productReference = 5627336C272D907500F7754E /* SaraChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56273364272D907500F7754E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5627336B272D907500F7754E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 56273367272D907500F7754E /* Build configuration list for PBXProject "SaraChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56273363272D907500F7754E;
+			productRefGroup = 5627336D272D907500F7754E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5627336B272D907500F7754E /* SaraChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5627336A272D907500F7754E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5627337C272D907A00F7754E /* LaunchScreen.storyboard in Resources */,
+				56819862272DCE7F0005DF8F /* GoogleService-Info.plist in Resources */,
+				56273379272D907A00F7754E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D99A18970792AED51B1EA46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraChat/Pods-SaraChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaraChat/Pods-SaraChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaraChat/Pods-SaraChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FAEFAD5946ACC14203D578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaraChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56273368272D907500F7754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE56D3A2730201C00C6332A /* favorite.swift in Sources */,
+				8FE56D3827301F6A00C6332A /* Tap bar.swift in Sources */,
+				8FE56D3E2730203100C6332A /* UsersViewController.swift in Sources */,
+				56273370272D907500F7754E /* AppDelegate.swift in Sources */,
+				56819857272DAA030005DF8F /* RegisterViewController.swift in Sources */,
+				56273372272D907500F7754E /* SceneDelegate.swift in Sources */,
+				8FE56D3627301F4100C6332A /* Model.swift in Sources */,
+				8FE56D3C2730202600C6332A /* ProfileVC.swift in Sources */,
+				8FE56D402730228300C6332A /* LogIn.swift in Sources */,
+				8FE56D422730234500C6332A /* ChatViewController.swift in Sources */,
+				56819851272DA9A50005DF8F /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5627337A272D907A00F7754E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5627337B272D907A00F7754E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5627337E272D907A00F7754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5627337F272D907A00F7754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56273381272D907A00F7754E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE2CFE8FA3EDA9A890BBAFD /* Pods-SaraChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VKRHK5LM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaraChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sara.sara.SaraChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56273382272D907A00F7754E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475EEC8895377C0D3EA7BBD7 /* Pods-SaraChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VKRHK5LM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaraChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "\"\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sara.sara.SaraChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56273367272D907500F7754E /* Build configuration list for PBXProject "SaraChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5627337E272D907A00F7754E /* Debug */,
+				5627337F272D907A00F7754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56273380272D907A00F7754E /* Build configuration list for PBXNativeTarget "SaraChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56273381272D907A00F7754E /* Debug */,
+				56273382272D907A00F7754E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56273364272D907500F7754E /* Project object */;
+}
