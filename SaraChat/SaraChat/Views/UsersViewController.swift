@@ -43,7 +43,7 @@ class UsersViewController : UITableViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-//
+
     func getUsers() {
         Firestore.firestore().collection("User").addSnapshotListener { snapshot, error in
             if error == nil {

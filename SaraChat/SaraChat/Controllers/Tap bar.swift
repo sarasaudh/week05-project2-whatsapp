@@ -12,7 +12,21 @@ class TabVC: UITabBarController, UITabBarControllerDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     delegate = self
+      assignbackground()
+
   }
+    func assignbackground(){
+          let background = UIImage(named: "z")
+
+          var imageView : UIImageView!
+          imageView = UIImageView(frame: view.bounds)
+        //  imageView.contentMode =  UIViewContentMode.ScaleAspectFill
+          imageView.clipsToBounds = true
+          imageView.image = background
+          imageView.center = view.center
+          view.addSubview(imageView)
+          self.view.sendSubviewToBack(imageView)
+      }
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     let item1 = UsersViewController()

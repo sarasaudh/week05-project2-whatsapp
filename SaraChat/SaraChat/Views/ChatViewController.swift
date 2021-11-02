@@ -22,11 +22,22 @@ class ChatViewController: UIViewController {
         setupUI()
         
         getAllMessages()
-        
+        assignbackground()
         chatTableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+
     }
-    
-    
+    func assignbackground(){
+          let background = UIImage(named: "z")
+
+          var imageView : UIImageView!
+          imageView = UIImageView(frame: view.bounds)
+        //  imageView.contentMode =  UIViewContentMode.ScaleAspectFill
+          imageView.clipsToBounds = true
+          imageView.image = background
+          imageView.center = view.center
+          view.addSubview(imageView)
+          self.view.sendSubviewToBack(imageView)
+      }
     let chatTableView : UITableView = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
@@ -51,7 +62,7 @@ class ChatViewController: UIViewController {
     
     func setupUI() {
         
-      //  view.backgroundImage = UIImage(named: "z")
+       
         
         navigationItem.title = user?.name
         
@@ -149,4 +160,5 @@ extension ChatViewController {
             }
         }
     }
+ 
 }
