@@ -8,25 +8,26 @@
 
 
 import UIKit
+import FirebaseAuth
+
 class TabVC: UITabBarController, UITabBarControllerDelegate {
-  override func viewDidLoad() {
+ 
+    override func viewDidLoad() {
     super.viewDidLoad()
-    delegate = self
-      assignbackground()
-
-  }
-    func assignbackground(){
-          let background = UIImage(named: "z")
-
-          var imageView : UIImageView!
-          imageView = UIImageView(frame: view.bounds)
-        //  imageView.contentMode =  UIViewContentMode.ScaleAspectFill
-          imageView.clipsToBounds = true
-          imageView.image = background
-          imageView.center = view.center
-          view.addSubview(imageView)
-          self.view.sendSubviewToBack(imageView)
+      
+      guard let currentUserId = Auth.auth().currentUser?.uid else {
+          return
       }
+      
+    //  UsersService.shared.updateUserInfo(
+//          user: User(
+//              id: currentUserId,
+//              name: "sara",
+//              status: "Besy"
+//          )
+//      )
+    delegate = self
+  }
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     let item1 = UsersViewController()

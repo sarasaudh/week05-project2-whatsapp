@@ -13,8 +13,9 @@
 		5627337C272D907A00F7754E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5627337A272D907A00F7754E /* LaunchScreen.storyboard */; };
 		56819851272DA9A50005DF8F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56819850272DA9A50005DF8F /* Extensions.swift */; };
 		56819857272DAA030005DF8F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56819855272DAA020005DF8F /* RegisterViewController.swift */; };
-		56819862272DCE7F0005DF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56819861272DCE7F0005DF8F /* GoogleService-Info.plist */; };
 		6EC93777EE5639490D8FBCD4 /* Pods_SaraChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */; };
+		84F0B791273CFA350091FDF7 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = 84F0B790273CFA340091FDF7 /* Services */; };
+		84F0B793273D3BFD0091FDF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F0B792273D3BFD0091FDF7 /* GoogleService-Info.plist */; };
 		8FE56D3627301F4100C6332A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3527301F4100C6332A /* Model.swift */; };
 		8FE56D3827301F6A00C6332A /* Tap bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D3727301F6A00C6332A /* Tap bar.swift */; };
 		8FE56D3A2730201C00C6332A /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE56D392730201C00C6332A /* favorite.swift */; };
@@ -34,10 +35,11 @@
 		5627337D272D907A00F7754E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56819850272DA9A50005DF8F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		56819855272DAA020005DF8F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		56819861272DCE7F0005DF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaraChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE2CFE8FA3EDA9A890BBAFD /* Pods-SaraChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaraChat.debug.xcconfig"; path = "Target Support Files/Pods-SaraChat/Pods-SaraChat.debug.xcconfig"; sourceTree = "<group>"; };
-		8FE56D3527301F4100C6332A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84F0B790273CFA340091FDF7 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Services; path = ../../../../Users/sara/Downloads/AbhaChat/AbhaChat/Services; sourceTree = "<group>"; };
+		84F0B792273D3BFD0091FDF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8FE56D3527301F4100C6332A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "../New Group/Model.swift"; sourceTree = "<group>"; };
 		8FE56D3727301F6A00C6332A /* Tap bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tap bar.swift"; sourceTree = "<group>"; };
 		8FE56D392730201C00C6332A /* favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
 		8FE56D3B2730202600C6332A /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -79,12 +81,13 @@
 		5627336E272D907500F7754E /* SaraChat */ = {
 			isa = PBXGroup;
 			children = (
+				84F0B790273CFA340091FDF7 /* Services */,
 				56819854272DA9E30005DF8F /* LogIn */,
 				5681984F272DA94B0005DF8F /* Controllers */,
 				5681984E272DA93B0005DF8F /* Views */,
 				5681984B272DA8DC0005DF8F /* Resources */,
 				5627337D272D907A00F7754E /* Info.plist */,
-				56819861272DCE7F0005DF8F /* GoogleService-Info.plist */,
+				84F0B792273D3BFD0091FDF7 /* GoogleService-Info.plist */,
 			);
 			path = SaraChat;
 			sourceTree = "<group>";
@@ -102,11 +105,11 @@
 		5681984E272DA93B0005DF8F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8FE56D392730201C00C6332A /* favorite.swift */,
 				8FE56D3B2730202600C6332A /* ProfileVC.swift */,
+				8FE56D392730201C00C6332A /* favorite.swift */,
 				8FE56D412730234500C6332A /* ChatViewController.swift */,
 				8FE56D3D2730203100C6332A /* UsersViewController.swift */,
-				8FE56D3527301F4100C6332A /* Model.swift */,
+				84547B85273C00FF00B6CAB6 /* Models */,
 				56273378272D907A00F7754E /* Assets.xcassets */,
 				5627337A272D907A00F7754E /* LaunchScreen.storyboard */,
 			);
@@ -136,6 +139,14 @@
 				65C09D4C3E2EC74B486F7E98 /* Pods_SaraChat.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84547B85273C00FF00B6CAB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FE56D3527301F4100C6332A /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9D253ECD445A31C37B0A12DA /* Pods */ = {
@@ -207,8 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F0B791273CFA350091FDF7 /* Services in Resources */,
 				5627337C272D907A00F7754E /* LaunchScreen.storyboard in Resources */,
-				56819862272DCE7F0005DF8F /* GoogleService-Info.plist in Resources */,
+				84F0B793273D3BFD0091FDF7 /* GoogleService-Info.plist in Resources */,
 				56273379272D907A00F7754E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

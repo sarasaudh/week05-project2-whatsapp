@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1019999522409-qp748fgbfj3ai9koi4ia74k9fhhm57an.apps.googleusercontent.com</string>
+	<string>365379051447-pgg62vf4t3ibh5edmsac8il6eq6uqmdv.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1019999522409-qp748fgbfj3ai9koi4ia74k9fhhm57an</string>
+	<string>com.googleusercontent.apps.365379051447-pgg62vf4t3ibh5edmsac8il6eq6uqmdv</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCN4IKLaeKlNHOQtghu8uYiFNO1g3JOG_8</string>
+	<string>AIzaSyBqIgxelTIlkqVUsKQ2_5hRvtkJU2KRXsI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1019999522409</string>
+	<string>365379051447</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>sara.sara.SaraChat</string>
+	<string>com.tasnim1.chatting</string>
 	<key>PROJECT_ID</key>
-	<string>sarachatt-88fa8</string>
+	<string>tuwaiq-ios</string>
 	<key>STORAGE_BUCKET</key>
-	<string>sarachatt-88fa8.appspot.com</string>
+	<string>tuwaiq-ios.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1019999522409:ios:f5cf7c7e3ba3f7f5ebdcf8</string>
+	<string>1:365379051447:ios:753b11d02146b836225232</string>
+	<key>DATABASE_URL</key>
+	<string>https://tuwaiq-ios-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>
 </plist>
